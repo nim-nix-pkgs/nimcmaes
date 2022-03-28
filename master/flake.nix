@@ -11,7 +11,6 @@
   inputs.src-nimcmaes-master.ref   = "refs/heads/master";
   inputs.src-nimcmaes-master.owner = "zevv";
   inputs.src-nimcmaes-master.repo  = "nimcmaes";
-  inputs.src-nimcmaes-master.dir   = "";
   inputs.src-nimcmaes-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
